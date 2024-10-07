@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="shortcut icon" href="icon Weather_app.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container comon">
+      <div class="content comon">
+        <label id="label" for="">
+          <input
+            id="search_input"
+            type="text"
+            placeholder="Type your city name"
+          />
+          <button id="search_btn">Serach</button>
+        </label>
+        <h2 id="mycity"></h2>
+        <p class="temp"><span id="temp">0</span>°C</p>
+        <img src="Drizzle (1).png" alt="" />
+
+        <div class="windAnsHimanidity">
+          <div class="wind">
+            <img src="wind.png" alt="" />
+            <div>
+              <p>Wind</p>
+              <p><span id="wind">0</span> km/h</p>
+            </div>
+          </div>
+          <div class="humidity">
+            <img src="humidity.png" alt="" />
+            <div>
+              <p>humidity</p>
+              <p><span id="humidity">0</span>%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
